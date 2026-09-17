@@ -605,11 +605,11 @@ function drawGorillaThoughtBubbles(player) {
       ctx.save();
       ctx.scale(1, -1);
 
-      ctx.font = "200px sans-serif";
+      ctx.font = "20px sans-serif";
       ctx.textAlign = "center";
       ctx.fillText("?", 0, -90);
 
-      ctx.font = "200px sans-serif";
+      ctx.font = "20px sans-serif";
 
       ctx.rotate((5 / 180) * Math.PI);
       ctx.fillText("?", 0, -90);
